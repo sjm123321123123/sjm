@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>简历页面</title>
+  <style>
+    body {
+      font-family: "FangSong", 仿宋, serif;
+      background-color: #E6F3FF; /* 浅蓝色背景 */
+      margin: 0;
+      padding: 20px;
+      font-size: 18px;
+    }
+
+    .header {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+      background-color: orange;
+      padding: 15px;
+      border-radius: 5px;
+    }
+
+    .logo {
+      width: 100px;
+      height: 100px;
+      background-color: gray;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-weight: bold;
+      margin-right: 15px;
+      font-size: 24px;
+    }
+
+    .welcome {
+      font-family: "Comic Sans MS", cursive, sans-serif;
+      color: yellow;
+      background-color: gray;
+      padding: 8px 15px;
+      font-size: 22px;
+      margin-left: 15px;
+    }
+
+    .decoration-img {
+      width: 250px;
+      height: auto;
+    }
+
+    .info-table {
+      width: 100%;
+      margin-bottom: 20px;
+      background-color: #008B8B; /* 湖蓝色填充 */
+      border-collapse: collapse;
+      font-size: 20px;
+      color: white; /* 表格文字改为白色以确保可读性 */
+    }
+
+    .info-table td {
+      padding: 12px;
+      border: 1px solid #006666; /* 深一点的湖蓝边框 */
+    }
+
+    .info-table tr:first-child td {
+      background-color: #006666; /* 表头稍深的湖蓝色 */
+      font-weight: bold;
+      text-align: center;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-family: "SimSun", 宋体, serif;
+      font-weight: bold;
+      color: #008B8B; /* 湖蓝色文字 */
+      text-align: center;
+      font-size: 24px;
+      background-color: white; /* 底部文字背景设为白色 */
+      padding: 10px;
+      border-radius: 5px;
+      display: inline-block;
+      width: auto;
+    }
+
+    .section-title {
+      font-weight: bold;
+    }
+
+    .content-row td {
+      background-color: #008B8B; /* 内容行湖蓝色 */
+    }
+  </style>
+</head>
+
+<body>
+  <div class="header">
+    <div class="logo">SJ</div>
+    <div>
+      <p style="font-size: 20px; color: white;">外国橙色 加粗填充 内侧灰色加粗填充</p>
+      <img class="decoration-img" src="stitch.jpg" alt="装饰图片">
+    </div>
+    <div class="welcome">welcome</div>
+  </div>
+
+  <table class="info-table">
+    <tr>
+      <td class="section-title">毕业院校</td>
+      <td class="section-title">优势学科及比赛经历</td>
+      <td class="section-title">擅长技能</td>
+      <td class="section-title">兴趣爱好</td>
+    </tr>
+    <tr class="content-row">
+      <td colspan="4">底层湖蓝色填充区域</td>
+    </tr>
+    <tr class="content-row">
+      <td><span class="section-title">姓名：</span></td>
+      <td></td>
+      <td><span class="section-title">个性签名：</span></td>
+      <td>文字均为仿宋</td>
+    </tr>
+    <tr class="content-row">
+      <td><span class="section-title">生日：</span></td>
+      <td></td>
+      <td><span class="section-title">人生格言：</span></td>
+      <td></td>
+    </tr>
+    <tr class="content-row">
+      <td><span class="section-title">所在城市：</span></td>
+      <td></td>
+      <td><span class="section-title">目标：</span></td>
+      <td></td>
+    </tr>
+    <tr class="content-row">
+      <td><span class="section-title">专业：</span></td>
+      <td></td>
+      <td colspan="2">底层湖蓝色填充区域</td>
+    </tr>
+  </table>
+
+  <div style="text-align: center; margin: 20px 0;">
+    <img class="decoration-img" src="stitch.jpg" alt="自拍风景照装饰">
+  </div>
+
+  <div style="text-align: center;">
+    <div class="footer">最后文字（湖蓝色宋体加粗）</div>
+  </div>
+</body>
+
+</html>
